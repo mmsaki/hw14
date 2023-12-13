@@ -1,9 +1,9 @@
 #![allow(dead_code)]
 #![allow(unused_imports)]
 
-use ark_ff::{Field, PrimeField, Fp2, BigInteger};
+use ark_ff::{Field, PrimeField, BigInteger};
 use ark_bls12_381::Fq as F;
-use ark_std::{One, Zero, UniformRand, test_rng};
+use ark_std::{One, Zero, UniformRand};
 
 
 fn main() {
